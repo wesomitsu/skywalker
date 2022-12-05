@@ -1,0 +1,125 @@
+ @-webkit-keyframes orbit {
+     0% {
+         -webkit-transform: rotateZ(0deg);
+         transform: rotateZ(0deg) 
+    }
+     100% {
+         -webkit-transform: rotateZ(360deg);
+         transform: rotateZ(360deg) 
+    }
+}
+ @keyframes orbit {
+     0% {
+         -webkit-transform: rotateZ(0deg);
+         transform: rotateZ(0deg) 
+    }
+     100% {
+         -webkit-transform: rotateZ(360deg);
+         transform: rotateZ(360deg) 
+    }
+}
+ @-webkit-keyframes invert-orbit {
+     0% {
+         -webkit-transform: rotateZ(360deg) rotateY(30deg) rotateX(-75deg);
+         transform: rotateZ(360deg) rotateY(30deg) rotateX(-75deg) 
+    }
+     100% {
+         -webkit-transform: rotateZ(0deg) rotateY(30deg) rotateX(-75deg);
+         transform: rotateZ(0deg) rotateY(30deg) rotateX(-75deg) 
+    }
+}
+ @keyframes invert-orbit {
+     0% {
+         -webkit-transform: rotateZ(360deg) rotateY(30deg) rotateX(-75deg);
+         transform: rotateZ(360deg) rotateY(30deg) rotateX(-75deg) 
+    }
+     100% {
+         -webkit-transform: rotateZ(0deg) rotateY(30deg) rotateX(-75deg);
+         transform: rotateZ(0deg) rotateY(30deg) rotateX(-75deg) 
+    }
+}
+ @-webkit-keyframes tail {
+     0% {
+         width: 0;
+    }
+     30% {
+         width: 100px;
+    }
+     100% {
+         width: 0;
+    }
+}
+ @keyframes tail {
+     0% {
+         width: 0;
+    }
+     30% {
+         width: 100px;
+    }
+     100% {
+         width: 0;
+    }
+}
+ @-webkit-keyframes shining {
+     0% {
+         width: 0;
+    }
+     50% {
+         width: 30px;
+    }
+     100% {
+         width: 0;
+    }
+}
+ @keyframes shining {
+     0% {
+         width: 0;
+    }
+     50% {
+         width: 30px;
+    }
+     100% {
+         width: 0;
+    }
+}
+ @-webkit-keyframes shooting {
+     0% {
+         -webkit-transform: translateX(0);
+         transform: translateX(0);
+    }
+     100% {
+         -webkit-transform: translateX(300px);
+         transform: translateX(300px);
+    }
+}
+ @keyframes shooting {
+     0% {
+         -webkit-transform: translateX(0);
+         transform: translateX(0);
+    }
+     100% {
+         -webkit-transform: translateX(300px);
+         transform: translateX(300px);
+    }
+}
+ @-webkit-keyframes fa-spin {
+     0% {
+         -webkit-transform: rotate(0deg);
+         transform: rotate(0deg) 
+    }
+     100% {
+         -webkit-transform: rotate(359deg);
+         transform: rotate(359deg) 
+    }
+}
+ @keyframes fa-spin {
+     0% {
+         -webkit-transform: rotate(0deg);
+         transform: rotate(0deg) 
+    }
+     100% {
+         -webkit-transform: rotate(359deg);
+         transform: rotate(359deg) 
+    }
+}
+ 
